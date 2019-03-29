@@ -1,0 +1,16 @@
+C:\Users\Anna\source\repos\ChatUDP\ChatUDP\bin\Debug\ChatUDP.exe.config
+C:\Users\Anna\source\repos\ChatUDP\ChatUDP\bin\Debug\ChatUDP.exe
+C:\Users\Anna\source\repos\ChatUDP\ChatUDP\bin\Debug\ChatUDP.pdb
+C:\Users\Anna\source\repos\ChatUDP\ChatUDP\obj\Debug\ChatUDP.csprojAssemblyReference.cache
+C:\Users\Anna\source\repos\ChatUDP\ChatUDP\obj\Debug\MainWindow.g.cs
+C:\Users\Anna\source\repos\ChatUDP\ChatUDP\obj\Debug\App.g.cs
+C:\Users\Anna\source\repos\ChatUDP\ChatUDP\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Anna\source\repos\ChatUDP\ChatUDP\obj\Debug\ChatUDP_MarkupCompile.cache
+C:\Users\Anna\source\repos\ChatUDP\ChatUDP\obj\Debug\ChatUDP_MarkupCompile.lref
+C:\Users\Anna\source\repos\ChatUDP\ChatUDP\obj\Debug\MainWindow.baml
+C:\Users\Anna\source\repos\ChatUDP\ChatUDP\obj\Debug\ChatUDP.g.resources
+C:\Users\Anna\source\repos\ChatUDP\ChatUDP\obj\Debug\ChatUDP.Properties.Resources.resources
+C:\Users\Anna\source\repos\ChatUDP\ChatUDP\obj\Debug\ChatUDP.csproj.GenerateResource.cache
+C:\Users\Anna\source\repos\ChatUDP\ChatUDP\obj\Debug\ChatUDP.csproj.CoreCompileInputs.cache
+C:\Users\Anna\source\repos\ChatUDP\ChatUDP\obj\Debug\ChatUDP.exe
+C:\Users\Anna\source\repos\ChatUDP\ChatUDP\obj\Debug\ChatUDP.pdb

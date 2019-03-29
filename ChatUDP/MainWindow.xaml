@@ -1,0 +1,45 @@
+﻿<Window x:Class="ChatUDP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatUDP"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" MinHeight="430" MinWidth="650">
+    <Window.DataContext>
+        <local:ViewModel></local:ViewModel>
+    </Window.DataContext>
+    <Grid Background="#E3F0FF">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.5*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="4*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Margin="20 20 5 20" FontWeight="Bold" FontSize="18" Foreground="#022B59">Name:</Label>
+            <TextBox Margin="0 20" Grid.Column="1" Text="{Binding Name}" IsEnabled="{Binding IsEnabled}"></TextBox>
+            <DockPanel Grid.Column="2" VerticalAlignment="Center" Margin="20 0 ">
+                <Button DockPanel.Dock="Top" Margin="30 5" Command="{Binding Join}" IsEnabled="{Binding IsEnabledBtn}" 
+                        Background="#9EB7D3" Foreground="#022B59" FontSize="14">Join</Button>
+                <Button DockPanel.Dock="Bottom" Margin="30 5" Command="{Binding Exit}" Background="#9EB7D3" 
+                        Foreground="#022B59" FontSize="14">Exit</Button>
+            </DockPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <ListBox Margin="20" ItemsSource="{Binding Messages}" Background="#FFFEF7" Foreground="#02124D" FontSize="14"></ListBox>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBox Margin="20 0 10 10" Text="{Binding Message}"></TextBox>
+            <Button Grid.Column="1" Margin="10 30 20 30" Command="{Binding Send}" Background="#9EB7D3" Foreground="#022B59" FontSize="16">Send</Button>
+        </Grid>
+    </Grid>
+</Window>
